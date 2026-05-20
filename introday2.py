@@ -3,14 +3,17 @@
 # name = input("enter your name:")
 # print (name)
 
+# NAME = input("WHICH CALSS DO YOU STUDY:")
+# print(NAME)
+
 # age = int(input("enter your age")) 
 # print(age)
 # print(type(age))                         
 
 
 # # age here age is show as sstringer but it is interger
-# address = input("enter your address")
-# print(address)
+address = input("enter your address:   ")
+print(type(address))
 
 # product_name = "Iphone 13 pro" 
 # price = 155000
@@ -193,11 +196,11 @@
 # input num1, num2, num3
 # fromula avg=(n1+n2+n3)/3 additon +division
 
-n1 = float(input("enter the value of n1: "))
-n2 = float(input("enter the value of n2: "))
-n3 = float(input("enter the value of n3: "))
-average = (n1 + n2 + n3) / 3
-print("the average vlaue of 3 number is:" , average)
+# n1 = float(input("enter the value of n1: "))
+# n2 = float(input("enter the value of n2: "))
+# n3 = float(input("enter the value of n3: "))
+# average = (n1 + n2 + n3) / 3
+# print("the average vlaue of 3 number is:" , average)
 
 
 # conter kilometres to meter by taking input from users

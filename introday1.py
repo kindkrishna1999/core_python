@@ -2,7 +2,7 @@
 #field that python mainlly used in 
 #machine learning 
 #data science(numpy, tensor)
-# web development(django)
+# web development (django)
 #comment in python: comment is the feature in python that ignore the execution of code as whole line.
 #++two ways to comment code in python++++++++
 #1 single line comment : single line comment os done using hastag(#)
@@ -11,47 +11,55 @@
 # print(a)
 #shortcut key to comment in python is (ctrl+/)
 #2 multiline comment in python using doc-stringor triple single qoutes'''''' or double quotes""""""":
-"""
+
+
 # a=5
 # b=0
-# #print(a/b)
+# print(a/b)
 # print(a)
 # print(b)
- 
- """
+
 # #variable: it is the container that is used to store value or data.
 # 1....................#camelcase: in camel case the first word is small and the second starting word SHOULD BE  is capital.
 # #example:
 # collegeName= "xaiver school"
 # print(collegeName)
 
+# nepalGas = "everest gas is most advance str unit of our life"
+# print(nepalGas)
+
+# name = "hello world"
+# print(name)
+
+
 # 2................#snake_case: in snake case every word separated by underscore.
-# college_name="run school"
-# print(college_name)
+# college_Name="run school"
+# print(college_Name)
 # #snake case is the best way to declare the variable
+
 
 
 #3......................pascal case : every words first letter should be capital
 #example:
-# CollgeName="ram"
-# print(CollgeName)
+CollgeName="ram COLLEGE      "
+print(CollgeName)
 
 
 
 
 
 
-#datatype in python: data is a set if instruction.
-#types of dara
-#1. Numeric data type: the data which is in the form of number or interger known as numeric data type.
+#datatype in python: data is a set OF WORD IN PYTHON WHICH HELP TO INTERPRET WITH instruction.
+#types of daTA
+                        #  1. Numeric data type: the data which is in the form of number or interger known as numeric data type.
 #a.interger(int): interger is the numerical value without including decimal value(1,2,3)
 
-# a,b=4,7
+# a,b=4,7   
 # print(a,b)
 # print(a)
 # print(b)
 
-# #float: float is the data which is used in python to take approximate valure.
+                        #2 float: float is the data which is used in python to take approximate value.
 # #example
 # #pi=3.14159 #exact value
 # pi=3.14 #approximate value
@@ -60,8 +68,8 @@
 
 
 
-# # a=3.15
-# # print(type(a))
+# a=3.15
+# print(type(a))
 
 # a=5
 # #print(type(a)) type ko kam find garnae ho
@@ -96,6 +104,6 @@
 # print("i am year old:", age)
 # print(type(age))
 
-collgeName = "Tri-chandra Multiple Campus"
-print("my college Name is:", collgeName )
-print(type(collgeName ))
+# collgeName = "Tri-chandra Multiple Campus"
+# print("my college Name is:", collgeName )
+# print(type(collgeName ))
