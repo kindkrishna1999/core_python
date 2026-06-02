@@ -5,7 +5,7 @@
 #   1. \n.................
 # it breaks the line and switch to next. it only work for string. which mean \n should be in the form of "\n"
 # example
-# print("college\nname")
+# print("college \nname")
 # print(5,"\n",3,sep="")         
 # # sep="" it reomcies extra space.      backslash n switch to next line (output)
 # # output:print in one line vertically
@@ -45,15 +45,15 @@
 
 # 4.......................\v
 # verticle space
-# print("he\vllo")
+print("he\vllo")
 # print("12589\vram")   
 # print("sajha\vtech")   
 # print("lap\vtop")        
 # print("univer\vsity")
 
 #5.......................\b
-# print("he\bllo")
-# print("12589\bram")   
+print("he\bllo")
+print("12589\bram")   
 # print("sajha\btech")   
 # print("lap\btop")        
 # print("univer\bsity")

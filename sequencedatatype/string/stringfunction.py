@@ -15,6 +15,114 @@
 # name.upper()
 # print(name)
 
+# ==============Practice Questions for Case Conversion Methods in Strings=================
+# Q1.Write a Python program to convert the string "hello world" into uppercase.
+
+# name = "hello world"
+# print(name.upper())
+
+
+# # Q2.Convert the string "PYTHON PROGRAMMING" into lowercase.
+# name = "PYTHON PROGRAMMING"
+# print(name.lower())
+
+# # Q3.What will be the output?
+# s = "hello python"
+# print(s.title())   #output will be (h CHANGE IN CAPATIAL)
+  
+
+
+# # Q4.Differentiate between title() and capitalize() with example.
+# # title works as : only first letter of word as upper but capitalize(function acts as whole letter of words as uppercase)
+
+# # Q5.Write a program to capitalize only the first letter of the string "python is fun".
+# name = "python is fun"
+# print(name.title())
+
+
+# # Q6.What will be the output?
+# s = "hELLO wORLD"
+# print(s.capitalize())           #Hello world
+
+
+# # Q7.Write a program to take user input as (name,collegeName,address,favouritePlayer,FavouriteGame) and convert it into:
+#     # •	uppercase 
+# # name = input("enter the name:")
+# # collegeName = input("enter the name of the college:")
+# # address = input("enter the address:")
+# # favouritePlayer = input("enter the favourite player you like:   ")
+# # FavouriteGame = input("enter the game you like the most:") 
+# # print(name.upper())
+# # print(collegeName.upper())
+# # print(address.upper())
+# # print(favouritePlayer.upper())
+# # print(FavouriteGame.upper())
+
+
+# # #  •	lowercase 
+# # name = input("enter the name:")
+# # collegeName = input("enter the name of the college:")
+# # address = input("enter the address:")
+# # favouritePlayer = input("enter the favourite player you like:   ")
+# # FavouriteGame = input("enter the game you like the most:") 
+# # print(name.lower())
+# # print(collegeName.lower())
+# # print(address.lower())
+# # print(favouritePlayer.lower())
+# # print(FavouriteGame.lower())
+
+
+# # Q8.What will be the output?
+# s = "123abc"
+# print(s.upper())   #output 123ABC
+
+
+# # Q9.Correct the following string using proper case (title case):
+# s = "welcome to nepal"
+# print(s.title())
+
+
+# # Q10.Predict the output:
+# s = "python programming"
+# print(s.capitalize()) #Python programming
+# print(s.title())    #Python Programming
+
+
+
+# text = input("enter your name: ")
+# print(text.swapcase())              #swapcase is the function that used in upper and lower case where it easy swap or change upper into lower or vice-versa.
+
+
+
+
+# name = input("enter the name:")
+# collegeName = input("enter the name of the college:")
+# address = input("enter the address:")
+# favouritePlayer = input("enter the favourite player you like:   ")
+# FavouriteGame = input("enter the game you like the most:") 
+# print(name.upper())
+# print(collegeName.upper())
+# print(address.upper())
+# print(favouritePlayer.upper())
+# print(FavouriteGame.upper())
+
+
+# #  •	lowercase 
+# name = input("enter the name:")
+# collegeName = input("enter the name of the college:")
+# address = input("enter the address:")
+# favouritePlayer = input("enter the favourite player you like:   ")
+# FavouriteGame = input("enter the game you like the most:") 
+# print(name.lower())
+# print(collegeName.lower())
+# print(address.lower())
+# print(favouritePlayer.lower())
+# print(FavouriteGame.lower()) 
+
+
+
+
+
                     #  b....................... lower case: it converts word alll lettters into lowercase small alphabetic form
                         # syntx: variablename.lower()
                         # reason behind two bracket is one for print and other for lower function.
@@ -59,7 +167,6 @@
 # print(type(actor1Age))
 
 
-
 # actor2 = input("enter the name of actor")
 # actor2Age = int(input("enter the age"))
 # print(actor1)
@@ -67,7 +174,6 @@
 # print(actor2Age)                                     
 # print(type(actor2))
 # print(type(actor2Age))
-
 
 
 # actor3 = input("enter the name of actor")
@@ -79,7 +185,6 @@
 # print(type(actor3Age))
 
 
-
 # actor4 = input("enter the name of actor")
 # actor4Age = int(input("enter the age"))
 # print(actor4)
@@ -87,7 +192,6 @@
 # print(actor4Age)                                     
 # print(type(actor4))
 # print(type(actor4Age))
-
 
 
 # actor5 = input("enter the name of actor")
@@ -195,12 +299,6 @@
 # print(unsername.isupper())
 # print(actor.isupper())            
 
-
-
-
-
-
-
 #####################3. searching method(find(),index() start from 0 to 9...,count())################
                                     # a...........(find(): it help to serach the location of character of in the word and find the location of the character of position.
 
@@ -226,229 +324,168 @@
 # question 
 #1. take the word "Encyclopedia" amd check "cl", "ed", "de" using find function and write output
 # 3 , count a,e,m , t,o
-ssg = "Hello This is Deepak from Mahendranager"
-print(ssg.count("a"))
-print(ssg.count("e"))
-print(ssg.count("m"))
-print(ssg.count("t"))
-print(ssg.count("o")) 
+# ssg = "Hello This is Deepak from Mahendranager"
+# print(ssg.count("a"))
+# print(ssg.count("e"))
+# print(ssg.count("m"))
+# print(ssg.count("t"))
+# print(ssg.count("o")) 
 
 
+# word="Encyclopedia"
+# print(word.find("cl"))
+# print(word.find("c"))
+# print(word.find("de"))
+# print(word.find("ed"))
 
-word="Encyclopedia"
-print(word.find("cl"))
-print(word.find("c"))
-print(word.find("de"))
-print(word.find("ed"))
+# print(word.index("cl"))
+# print(word.index("c"))
+# print(word.index("de"))
+# print(word.index("ed"))
 
-print(word.index("cl"))
-print(word.index("c"))
-print(word.index("de"))
-print(word.index("ed"))
+# ################################spliting and joining#####################
+# #EXAMPLE
+# name="saroj"
+# print(name.split("s"))        #due to blank it put in single quatation but next word wont show
+# print(name.split("a")) 
+# print(name.split("r")) 
 
+# address = "kkkkkkkathmmmmnduuu"
+# print(address.split("k"))        
+# print(address.split("m"))
+# print(address.split("u"))
+# answer from above question
+# ['', '', '', '', '', '', '', 'athmmmmnduuu']
+# ['kkkkkkkath', '', '', '', 'nduuu']
+# ['kkkkkkkathmmmmnd', '', '', '']
 
 
+# #########################################JOINT###############################
+# 4 JOINT : IT JOINS TWO LIST AND CONVERT IT INTO STRING
 
+# fruit = ["apple", "banana"]
+# fruit1 = ["orange", "guava"]
+# # lst = fruit + fruit1
+# # print (lst)
+# result = " , ".join(fruit + fruit1)
+# print(result)               #apple , banana , orange , guava
 
+# question 1 full name split prigram
+# write a python program that takes full name from user use split() prints first name and last name separately
 
+# firstName : sushil
+# lastName : singh
 
+# fullname = input("enter your full name: ")          #string
+# text = fullname.split(" ")                          #list
+# print(text)
+# print("first name:" ,text[0])         #            access value to the index
+# print("millde name",text[1])
+# print("last name:", text[2])
 
+# question no 2
+# Email analyzer program
+# write a python  program that
+# takes email from user
+# use split "@"
+# prints user name and domain name separately
 
+# email = input("enter your email:")
+# text = email.split("@")
+# print(text)
+# print("username:" ,text[0])  
+# print("domain name:" ,text[1])  
 
 
+######################################removing space################
+# it removes the unwanted space in string.
+                    #####1 strip(): it remove unwanted space from both left and right side of the string
 
+# name = "             k rishna           "
+# print(name.strip())
 
 
+#                     #2 rstrip(): it removes right side unwanted space only.
 
 
 
+# name = "             fgahafgafe           "
+# print(name.rstrip())
 
+#                      #3 lstrip(): it remove left side unwanted space only.
 
+# name = "             fgahafgafe           "
+# print(name.lstrip())
 
 
+#############################################6 alignment function######################
+                        ###########a. center (width) it give space for both side from given string; you should mention the width number from agrument: (inside the box)
 
+# fruit = "watermelon"
+# txt = fruit.center(50)
+# print(txt, "is my favorite fruit")
+#                                     #####b. left : it give space from left side of given string
+# fruit = "watermelon"
+# txt = fruit.ljust(50)
+# print(txt, "is my favorite fruit")
 
+#                                 ####c. right: it give space from right side of given string.
+# fruit = "watermelon"
+# txt = fruit.rjust(50)
+# print(txt, "is my favorite fruit")
 
 
 
+##########################################start and end################################################
+# it checks the string starting character if match then givens the true otherwise false.
+                #1 start : if the first letter of alphabet is start with same and given function then it comes as true otherwise false
+# name = "krishna"
+# print(name.startswith("a")) #false
+# print(name.startswith("k")) #true
+#                 #2 end
+# name = "krishna"
+# print(name.endswith("a"))   #true
+# print(name.endswith("k"))   #false
 
 
 
 
+#####################################8. length function####################
+# it finds the actual length of string.
 
+# fruit = "waterhsdfgafmelon" 
+# print(len(fruit))           #17 count the alphabet
 
 
+# fruit = "banana"
+# txt= fruit.ljust(50)
+# print(len(fruit))           #6
+# print(len(txt))             #50
 
+#question clean name input program (strip)
+#write a python program that:
+#takes a name from user with extra spaces
+#removes spaces from both sides using strip()
 
 
+# name = input("enter the name")
+# text=name.split(" ")
+# print(text)
+# print(name.strip())
 
+##############################9. remove suffix/prefix##########################
 
 
+# email = "admin.@gmail.com.saroj"
+# print(email.removeprefix("admin."))
+# print(email.removesuffix(".com.saroj"))
 
+# a = "krishna@gmail.com"
+# print(a.removeprefix("krishna"))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# class work
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ==============Practice Questions for Case Conversion Methods in Strings=================
-# Q1.Write a Python program to convert the string "hello world" into uppercase.
-
-# name = "hello world"
-# print(name.upper())
-
-
-# # Q2.Convert the string "PYTHON PROGRAMMING" into lowercase.
-# name = "PYTHON PROGRAMMING"
-# print(name.lower())
-
-# # Q3.What will be the output?
-# s = "hello python"
-# print(s.title())   #output will be (h CHANGE IN CAPATIAL)
-  
-
-
-# # Q4.Differentiate between title() and capitalize() with example.
-# # title works as : only first letter of word as upper but capitalize(function acts as whole letter of words as uppercase)
-
-# # Q5.Write a program to capitalize only the first letter of the string "python is fun".
-# name = "python is fun"
-# print(name.title())
-
-
-# # Q6.What will be the output?
-# s = "hELLO wORLD"
-# print(s.capitalize())           #Hello world
-
-
-# # Q7.Write a program to take user input as (name,collegeName,address,favouritePlayer,FavouriteGame) and convert it into:
-#     # •	uppercase 
-# # name = input("enter the name:")
-# # collegeName = input("enter the name of the college:")
-# # address = input("enter the address:")
-# # favouritePlayer = input("enter the favourite player you like:   ")
-# # FavouriteGame = input("enter the game you like the most:") 
-# # print(name.upper())
-# # print(collegeName.upper())
-# # print(address.upper())
-# # print(favouritePlayer.upper())
-# # print(FavouriteGame.upper())
-
-
-# # #  •	lowercase 
-# # name = input("enter the name:")
-# # collegeName = input("enter the name of the college:")
-# # address = input("enter the address:")
-# # favouritePlayer = input("enter the favourite player you like:   ")
-# # FavouriteGame = input("enter the game you like the most:") 
-# # print(name.lower())
-# # print(collegeName.lower())
-# # print(address.lower())
-# # print(favouritePlayer.lower())
-# # print(FavouriteGame.lower())
-
-
-# # Q8.What will be the output?
-# s = "123abc"
-# print(s.upper())   #output 123ABC
-
-
-# # Q9.Correct the following string using proper case (title case):
-# s = "welcome to nepal"
-# print(s.title())
-
-
-# # Q10.Predict the output:
-# s = "python programming"
-# print(s.capitalize()) #Python programming
-# print(s.title())    #Python Programming
-
-
-
-# text = input("enter your name: ")
-# print(text.swapcase())              #swapcase is the function that used in upper and lower case where it easy swap or change upper into lower or vice-versa.
-
-
-
-
-# name = input("enter the name:")
-# collegeName = input("enter the name of the college:")
-# address = input("enter the address:")
-# favouritePlayer = input("enter the favourite player you like:   ")
-# FavouriteGame = input("enter the game you like the most:") 
-# print(name.upper())
-# print(collegeName.upper())
-# print(address.upper())
-# print(favouritePlayer.upper())
-# print(FavouriteGame.upper())
-
-
-# #  •	lowercase 
-# name = input("enter the name:")
-# collegeName = input("enter the name of the college:")
-# address = input("enter the address:")
-# favouritePlayer = input("enter the favourite player you like:   ")
-# FavouriteGame = input("enter the game you like the most:") 
-# print(name.lower())
-# print(collegeName.lower())
-# print(address.lower())
-# print(favouritePlayer.lower())
-# print(FavouriteGame.lower())
-
-
-
-
-
+########################replace() function#########
+#EXAMPLE it repalce the each and every character of the strings or as a whole string.
+# name ="saroj"
+# print(name.replace("o","k"))   #sarkj
+# print(name.replace("saroj","krishna"))      #krishna
 
