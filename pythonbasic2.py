@@ -12,8 +12,8 @@
 
 
 # # age here age is show as sstringer but it is interger
-address = input("enter your address:   ")
-print(type(address))
+# address = input("enter your address:   ")
+# print(type(address))
 
 # product_name = "Iphone 13 pro" 
 # price = 155000

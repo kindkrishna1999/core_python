@@ -40,14 +40,14 @@
 
 
 #3......................pascal case : every words first letter should be capital
-#example:
-CollgeName="ram COLLEGE      "
-print(CollgeName)
+# #example:
+# CollgeName="ram COLLEGE      "
+# print(CollgeName)
 
 
 
 
-
+22
 
 #datatype in python: data is a set OF WORD IN PYTHON WHICH HELP TO INTERPRET WITH instruction.
 #types of daTA
@@ -107,3 +107,7 @@ print(CollgeName)
 # collgeName = "Tri-chandra Multiple Campus"
 # print("my college Name is:", collgeName )
 # print(type(collgeName ))
+
+
+
+

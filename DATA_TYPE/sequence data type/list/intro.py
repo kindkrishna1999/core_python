@@ -32,9 +32,7 @@
 # lst = ["apple" , "orange" , "apple" , "orange"]         #allow the duplication 
 # print(lst)
 
-
-
-######access llist emenent y using indexing
+###########################################access llist emenent y using indexing
 # syntax: varName[indexing number]
 
 
@@ -61,3 +59,7 @@ d = mixing[0]
 print(d)
 
 print(a,b,c,d)
+
+
+
+

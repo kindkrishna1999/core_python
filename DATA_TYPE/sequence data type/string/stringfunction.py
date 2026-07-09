@@ -345,10 +345,10 @@
 
 # ################################spliting and joining#####################
 # #EXAMPLE
-# name="saroj"
-# print(name.split("s"))        #due to blank it put in single quatation but next word wont show
-# print(name.split("a")) 
-# print(name.split("r")) 
+name="saroj"
+print(name.split("s"))        #due to blank it put in single quatation but next word wont show
+print(name.split("a")) 
+print(name.split("r")) 
 
 # address = "kkkkkkkathmmmmnduuu"
 # print(address.split("k"))        
@@ -365,8 +365,8 @@
 
 # fruit = ["apple", "banana"]
 # fruit1 = ["orange", "guava"]
-# # lst = fruit + fruit1
-# # print (lst)
+# lst = fruit + fruit1
+# print (lst)
 # result = " , ".join(fruit + fruit1)
 # print(result)               #apple , banana , orange , guava
 
@@ -393,8 +393,8 @@
 # email = input("enter your email:")
 # text = email.split("@")
 # print(text)
-# print("username:" ,text[0])  
-# print("domain name:" ,text[1])  
+# print("username:" , text[0])  
+# print("domain name:" , text[1])  
 
 
 ######################################removing space################
@@ -476,8 +476,8 @@
 ##############################9. remove suffix/prefix##########################
 
 
-# email = "admin.@gmail.com.saroj"
-# print(email.removeprefix("admin."))
+email = "admin.@gmail.com.saroj"
+print(email.removeprefix("admin."))
 # print(email.removesuffix(".com.saroj"))
 
 # a = "krishna@gmail.com"
